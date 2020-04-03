@@ -1,0 +1,187 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	font-size: 16px;
+	color: #777;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
+#login-box
+{
+	position: relative;
+	margin: 5% auto;
+	height: 550px;
+	width: 400px;
+	background: #fff;
+	box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.upper-box
+{
+	position: absolute;
+	top: 0;
+	left: 40px;
+	box-sizing: border-box;
+	width: 300px;
+	height: 300px;
+}
+
+h1
+{
+	margin: 20px 0 20px 0;
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 2px;
+	width: 300px;
+	height: 40px;
+	background: #10b9f2;
+	text-align: center;
+	color:#fff;
+	line-height: 40px;	
+	
+}
+
+.EmailIcon input[type="text"],
+.passwordIcon input[type="password"]
+{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 4px;
+	width: 300px;
+	height: 40px;
+	border: 2px solid #aaa;
+	border-radius: 2px;
+	margin: 8px, 0;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+input[type="submit"]
+{
+	margin-bottom: 10px;
+	width: 300px;
+	height: 40px;
+	background: #0ca8dc;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: #40c7f5;
+	transition:  0.2s ease;
+}
+
+button
+{
+	margin: 30px 0 20px 0;
+	margin-bottom: 20px;
+	top: 320px;
+	width: 300px;
+	height: 36px;
+	border: none;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.ask
+{
+	color:#043b4d;
+	text-decoration: none;
+	font-size: 14px;
+	opacity:0.8;
+}
+button.social-facebook
+{
+	background-color: #5d6a94;
+}
+hr
+{
+	left:0px;
+	margin-top: 30px;
+	width: 94%;
+}
+.or
+{
+	background: #fff;
+	width: 30px;
+	margin: -19px auto 10px;
+}
+button.social-facebook
+{
+	background-color: #5d6a94;
+	margin-bottom: -30px;
+}
+button.social-google
+{
+	background-color: #db4a39;
+	margin-bottom: 10px;
+}
+button.social-EPAM
+{
+	background-color: #CCCC00;
+}
+.EmailIcon input[type=text]:focus
+{
+	border-color:doggerBlue;
+	box-shadow:0 0 8px 0 doggerBlue;
+}
+.EmailIcon
+{
+	position: relative;
+}
+.EmailIcon i{
+	position: absolute;
+	top: 8px;
+	padding: 5px 260px;
+	color: #aaa;
+	transition: .3s;
+}
+.EmailIcon input[type=text]:focus + i
+{
+	color:dodgerBlue;
+}
+.passwordIcon
+{
+	position: relative;
+}
+.passwordIcon i{
+	position: absolute;
+	top: 8px;
+	padding: 5px 265px;
+	color: #aaa;
+}
+.passwordIcon input[type=text]:focus + i
+{
+	color:dodgerBlue;
+}
+.headIcon
+{
+	position: relative;
+}
+.headIcon i{
+	position: absolute;
+	top: 8px;
+	padding: 5px 30px;
+	color: #fff;
+}
